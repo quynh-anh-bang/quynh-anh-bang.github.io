@@ -1,10 +1,9 @@
 body{
-    /*background-color: #181818; 
-    color:#fff;  */ 
-    font-family: 'Merriweather Sans', sans-serif;
+       
+    font-family: 'Nunito', sans-serif;
     line-height: 1.5;
-    font-size: 18px; 
-    text-align: center;
+    font-size: 20px; 
+    
 }
 h1, h2, h3, h4, h5, h6{
 font-family: 'Nunito', sans-serif;
@@ -12,10 +11,15 @@ font-family: 'Nunito', sans-serif;
 }
 h1{
     margin-top: 2.5%;
+    text-align: center;
 }
+h2, h3, h4, h5, h6{
+    color: #337ab7;
+}
+
 .nav{
     
-    background-color: #000;
+    background-color:  #000;
     
 }
 .nav-link{
@@ -23,19 +27,21 @@ h1{
     font-family: 'Nunito', sans-serif;
     font-size: 16px;
     font-weight: 800;
-    /*text-decoration: underline;*/
+    text-decoration: none;
     
 }
 
 
-.tags{
-    list-style: none;
+.page-tag{
+    text-align: center;
 }
 
 
 .card{
     border: 1px solid #000;
+    text-align: center;
 }
+
 
 
 
