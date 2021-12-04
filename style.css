@@ -41,7 +41,10 @@ h2, h3, h4, h5, h6{
     border: 1px solid #000;
     text-align: center;
 }
-
+.video{
+    display: flex;
+    justify-content: center;
+}
 
 
 
