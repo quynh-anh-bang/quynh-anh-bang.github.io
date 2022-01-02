@@ -11,7 +11,11 @@ font-family: 'Nunito', sans-serif;
 }
 h1{
     margin-top: 2.5%;
-    text-align: center;
+    
+}
+.description{
+    font-family: serif;
+    font-style: italic ;
 }
 h2, h3, h4, h5, h6{
     color: #337ab7;
