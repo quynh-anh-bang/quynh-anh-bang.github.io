@@ -49,8 +49,13 @@ h2, h3, h4, h5, h6{
     display: flex;
     justify-content: center;
 }
-img{
-    margin-bottom: 20px;
+figure{
+    display: grid;
+    place-items: center;
+}
+figcaption{
+    font-family: 'Lora', serif;
+    font-style: italic ;
 }
 mark{
     background: linear-gradient(120deg, #FFFF00 0%, #FFFF00 100%);
